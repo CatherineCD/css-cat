@@ -460,8 +460,8 @@ body {
 
 @keyframes bounceIn {
   0% {
-    -webkit-transform: scale(0.89) translate3d(0, 0, 0);
-    transform: scale(0.89) translate3d(0, 0, 0);
+    -webkit-transform: scale(0.89);
+    transform: scale(0.89);
   }
 
   50% {
@@ -478,7 +478,7 @@ body {
 
   100% {
     opacity: 1;
-    -webkit-transform: scale(1) translate3d(0, 0, 0);
-    transform: scale(1) translate3d(0, 0, 0);
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
